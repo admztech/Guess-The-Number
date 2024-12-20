@@ -74,12 +74,13 @@ function endGame(){
     p.classList.add('button');
     p.innerHTML = `<h2 id = "newGame">Start New Game</h2>`;
     startOver.appendChild(p);
+    p.style.cursor = 'pointer';
     playGame = false;
     restartGame();
 }
 function restartGame () {
     const restartGame = document.querySelector('#newGame');
-    restartGame.addEventListener('click', function(){
+    restartGame.addEventListener('click', function(e){
         randomNumber = parseInt (Math.random() * 100 + 1 );
         pastGuess = [];
         numGauess = 1;
@@ -88,6 +89,7 @@ function restartGame () {
         userInput.removeAttribute('disabled');
         startOver.removeChild(p);
         guessSlot.style.display = 'none';
+        lowOrHigh.innerHTML = ''; // Clear message
         playGame = true;
     });
 }
