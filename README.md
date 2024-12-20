@@ -28,3 +28,6 @@ Guessing a number game build using the **HTML**, **CSS** and **JavaSript**.
 4. You have **10** attempts to guess the number. After 10 attempts, the game ends.
 5. Click on **Start New Game** to play again.
 
+## Credits
+
+This project was created by **Adnan Manzoor** as part of learning HTML, CSS, and JavaScript.
