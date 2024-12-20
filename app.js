@@ -56,6 +56,7 @@ function checkGuess(guess){
 
 function displayGuess(guess){
     userInput.value = '';
+    guessSlot.style.display = 'inline';
     guessSlot.innerHTML += `${guess}, `;
     numGauess++ ;
     console.log(numGauess)
@@ -84,8 +85,9 @@ function restartGame () {
         numGauess = 1;
         guessSlot.innerHTML = '';
         remaining.innerHTML = `${11 - numGauess}`;
-        userInput.removeAttribute('disable',"");
+        userInput.removeAttribute('disabled');
         startOver.removeChild(p);
+        guessSlot.style.display = 'none';
         playGame = true;
-    })
+    });
 }
