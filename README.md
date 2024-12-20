@@ -1,19 +1,19 @@
 # GuessTheNumber
 
-Guessing a number game build using the **HTML**, **CSS** and **JavaSript**.
+Guessing a number game built using **HTML**, **CSS** and **JavaSript**.
 
-## Feature
+## Features
 
 - Random number generation between 1 and 100.
 - Tracks the number of guesses made.
-- Provide hint to the used if the guess is too high or too low .
-- Displaye the remaning number of guesses.
-- Game over message show when attempts run out.
+- Provides hints to the used if the guess is too high or too low .
+- Displays the remaining number of guesses.
+- Game over message shown when attempts run out.
 - Option to restart the game.
 
 ## Technologies Used
 
-1. **HTML** : Stucture of the game.
+1. **HTML** : Structure of the game.
 2. **CSS** : Styling and layout.
 3. **JavaScript** : Game logic and Interactivity.
 
